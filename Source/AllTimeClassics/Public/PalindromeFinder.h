@@ -12,6 +12,7 @@ class ALLTIMECLASSICS_API PalindromeFinder
 public:
 	// Check if a given string is a palindrome
 	bool IsPalindrome(FString Word);
+	bool ContainsPalindrome(FString Word);
 private:
 	bool IsPalindrome(FString Word, int FirstIndex, int LastIndex);
 };
